@@ -111,3 +111,5 @@ function quickSort(array, start = 0, end = array.length) {
   array = quickSort(array, middle + 1, end);
   return array;
 }
+
+console.log(quickSort([3, 5, 2, 9, 7]));

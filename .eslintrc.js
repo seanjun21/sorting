@@ -1,7 +1,12 @@
 module.exports = {
     "extends": "airbnb",
-    "installedESLint": true,
     "plugins": [
-        "react"
-    ]
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "no-param-reassign": 0,
+        "no-console": 0
+    }
 };
